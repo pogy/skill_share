@@ -2,6 +2,15 @@
 
 面向 Cursor 的 **Agent Skill**：在单次主会话中按阶段 0～5 推进现代敏捷交付，带产品 / BA / 架构师 / PM / 开发 / QA（及可选 UI）视角与协同输出格式。
 
+## 仓库
+
+- **GitHub（改名后的规范地址）**：https://github.com/pogy/modern-agile-delivery-cursor-skill  
+- **SSH clone**：`git clone git@github.com:pogy/modern-agile-delivery-cursor-skill.git`
+
+在 GitHub 仓库 **Settings → General → Repository name** 中，将 `skill_share` 改为 `modern-agile-delivery-cursor-skill` 后，上述链接与 Remote rule 地址即可对外使用。改名后在本机执行：
+
+`git remote set-url origin git@github.com:pogy/modern-agile-delivery-cursor-skill.git`
+
 ## 检查结论（发布前）
 
 - `name` 与目录名一致：`modern-agile-delivery`
@@ -12,8 +21,8 @@
 
 ### 方式 A：从 GitHub 导入（推荐）
 
-1. 将本仓库推送到 **公开** GitHub 仓库。
-2. Cursor：**Settings → Rules → Add rule → Remote rule (GitHub)**，填入仓库 URL。  
+1. 本仓库已为 **公开** GitHub 仓库（见上文「仓库」链接）。
+2. Cursor：**Settings → Rules → Add rule → Remote rule (GitHub)**，填入 `https://github.com/pogy/modern-agile-delivery-cursor-skill`。  
    （说明见官方文档 *Installing skills from GitHub*。）
 
 ### 方式 B：克隆到本机 skills 目录
